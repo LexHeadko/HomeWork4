@@ -3,7 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-        //task4();
+        task4();
         //task5();
         //task6();
         //task7();
@@ -38,6 +38,27 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф!");
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно.");
+        }
+    }
+
+    public static void task4() {
+        System.out.println("Задача 4");
+        byte age = 5;
+        boolean kindergarten = age >= 2 && age <= 6;
+        boolean school = age >= 7 && age <= 18;
+        boolean university = age >= 18 && age <= 24;
+        boolean work = age > 24;
+        if (kindergarten) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад.");
+        }
+        if (school) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу.");
+        }
+        if (university) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет.");
+        }
+        if (work) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу.");
         }
     }
 }
