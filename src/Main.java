@@ -13,7 +13,7 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
-        byte age = 17;
+        byte age = 24;
         if (age < 18){
             System.out.println("Если возраст человека равен " + age + ", он не достиг совершеннолетия, нужно немного подождать!");
         }
