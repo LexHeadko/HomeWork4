@@ -88,19 +88,19 @@ public class Main {
             System.out.println("В вагоне нет мест!");
         }
     }
-        public static void task7 () {
-            System.out.println("Задача 7");
-            int one = 1;
-            int two = 2;
-            int three = 3;
-            boolean bigOne = one > two && one > three;
-            boolean bigTwo = two > one && two > three;
-            if (bigOne) {
-                System.out.println("Число One самое большое!");
-            } else if (bigTwo) {
-                System.out.println("Число Two самое большое!");
-            } else {
-                System.out.println("Число Three самое большое!");
-            }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        boolean bigOne = one > two && one > three;
+        boolean bigTwo = two > one && two > three;
+        if (bigOne) {
+            System.out.println("Число One самое большое!");
+        } else if (bigTwo) {
+            System.out.println("Число Two самое большое!");
+        } else {
+            System.out.println("Число Three самое большое!");
         }
+    }
 }
